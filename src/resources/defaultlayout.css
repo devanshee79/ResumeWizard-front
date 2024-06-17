@@ -1,0 +1,159 @@
+.header{
+    height: 10%;
+    background-color: rgba(41, 144, 172, 0.85);
+    border-radius: 0px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;    
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: medium !important;
+    font-size: 20px !important;
+    width: 1wh;
+}
+.header p{   
+    margin: 0 0 0 15px;
+}
+.ant-space-item button{
+    position: relative;
+    background-color: rgba(41, 144, 172, 0.85) !important;
+    color: black !important;
+    border: 1-x solid rgb(44, 169, 98) !important;
+    height:50px; 
+    width:150px;
+    overflow: hidden; 
+    top: 2px;   
+    left: 100px !important;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: medium !important;
+    font-size: 20px !important;
+    /* visibility: hidden; */
+}
+
+.content{
+    height:fit-content;
+    width: 1hw;
+    margin: 5px;
+    /* border: 1px solid gray;
+    border-radius: 5px;
+    box-shadow: 0 0 3px rgba(128, 128, 128, 0.486); */
+    padding: 10px;
+}
+
+.ant-input{
+    width:300px;
+}
+
+.ant-row{
+    display: flex;
+    flex-direction: row;
+}
+.row1 {
+    display: grid;
+    grid-template-columns: repeat(5, auto); /* Define 5 equal-width columns */
+    grid-gap: 10px; /* Define the gap between grid items */
+    padding: 5px;
+  }
+  
+  .row2 {
+    display: grid;
+    grid-template-columns: repeat(3, 360px); /* Define 3 equal-width columns */
+    grid-gap: 10px; /* Define the gap between grid items */
+    padding: 5px;
+  }
+  .row3 {
+    display: grid;
+    grid-template-columns: repeat(4, 365px); /* Define 3 equal-width columns */
+    grid-gap: 10px; /* Define the gap between grid items */
+    padding: 5px;
+  }
+  .row5 {
+    display: grid;
+    grid-template-columns: repeat(3, auto); /* Define 5 equal-width columns */
+    grid-gap: 10px; /* Define the gap between grid items */
+    padding: 5px;
+  }
+  
+  .btn_edu,
+  .btn_skills,.btn_exp, .btn_project {
+     /* Add margin-top to create space between button and elements */
+    margin: 0px 0px 70px -160px;
+  }
+  
+.update{
+    position: relative;
+    /* top: -100px; */
+    left: 40px;
+}
+.row{
+    display: grid;
+    grid-template-columns: repeat(9, auto); /* Define 5 equal-width columns */
+    grid-gap: 5px; /* Define the gap between grid items */
+    padding: 5px;
+}
+.col-md-4{
+    margin: 10px;    
+    display: flex;
+    flex-direction: row;
+}
+.dropdown{    
+    right: 800px !important;
+    margin: 10px 190px;
+    top: 10px;
+    height: 50px;
+    font-family: 'Roboto';
+    font-size: 21px;
+    font-weight: 500 !important;
+    overflow: hidden;
+    align-items: center !important;
+    justify-content: center !important;
+    background-color: white !important;
+    color: black !important;
+    border: 3px solid rgba(41, 144, 172, 0.85) !important;
+    position: relative;
+    left: 130px;
+}
+
+.menu{
+  background-color: aqua;
+  font-size: larger;
+  font-family: 'Roboto';
+}
+.skills-container {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .skill-row {
+    display: flex;
+    align-items:flex-start;
+    gap: 40px;
+  }
+  
+  .skill-field {
+    /* flex: 1; */
+  }
+  
+  .skill-remove {
+    display: flex;
+    align-items: center;
+  }
+  
+
+@media (max-width: 800px){
+    .content{
+        /* height: 650px; */
+        margin: 5px;
+        /* border: 1px solid gray; */
+        border-radius: 5px;
+        box-shadow: 0 0 3px rgba(128, 128, 128, 0.486);
+        padding: 10px;
+    }
+    
+    .row5 {
+        display: grid;
+        grid-template-columns: repeat(1, auto); /* Define 5 equal-width columns */
+        grid-gap: 10px; /* Define the gap between grid items */
+        padding: 5px;
+      }
+}
