@@ -16,7 +16,7 @@ function Login() {
     setLoading(true);
     try{
       console.log(values);
-      const user = await axios.post('api/user/login', values)
+      const user = await axios.post('https://resumewizard-back-2.onrender.com/api/user/login', values)
       setLoading(false);
       console.log(user)
       localStorage.setItem("user", JSON.stringify(user.data));

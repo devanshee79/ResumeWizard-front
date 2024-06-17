@@ -41,7 +41,7 @@ function Profile() {
     try {
       // const temp = {...values, _id: user.data._id}
       console.log(values);
-      const result = await axios.post("api/user/update", {
+      const result = await axios.post("https://resumewizard-back-2.onrender.com/api/user/update", {
         ...values,
         _id: user._id,
       });

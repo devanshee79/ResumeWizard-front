@@ -22,7 +22,7 @@ function Register() {
     setLoading(true);
     try {
       console.log(values);
-      await axios.post("api/user/register", values);
+      await axios.post("https://resumewizard-back-2.onrender.com/api/user/register", values);
       setLoading(false);
       navigate("/home");
     } catch (err) {
